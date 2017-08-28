@@ -1,0 +1,33 @@
+{
+    "name": "myipc",
+    "description": "Light weight Local IPC with acknowledgement",
+
+    "author": {
+        "name": "Shambhu Lal Verma",
+        "email": "developer.sham@gmail.com" 
+    },
+    "bugs": {
+        "url": "https://github.com/vermaslal/myipc/issues"
+    },
+    "dependencies": {}, 
+    "homepage": "https://github.com/vermaslal/myipc",
+    "keywords": [
+        "IPC",
+        "Inter process communication"
+    ],
+    "license": "MIT",
+    "main": "server.js",
+    "maintainers": [
+        {
+            "name": "shambhu",
+            "email": "developer.sham@gmail.com"
+        }
+    ], 
+    "readme": "ERROR: No README data found!",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/vermaslal/myipc.git"
+    },  
+    "version": "0.0.1"
+}
+
