@@ -1,6 +1,6 @@
 # myipc
 
-## Light weight IPC using node js
+## Light weight IPC on node js
 
 myipc is simple and light weight IPC server and client with acknowledgement
 
