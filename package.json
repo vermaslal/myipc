@@ -1,7 +1,6 @@
 {
     "name": "myipc",
     "description": "Light weight Local IPC with acknowledgement",
-
     "author": {
         "name": "Shambhu Lal Verma",
         "email": "developer.sham@gmail.com" 
