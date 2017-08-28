@@ -21,8 +21,7 @@
             "name": "shambhu",
             "email": "developer.sham@gmail.com"
         }
-    ], 
-    "readme": "ERROR: No README data found!",
+    ],
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/vermaslal/myipc.git"
