@@ -2,7 +2,6 @@ var net = require('net');
 var util = require('util');
 var uuid = require('uuid');
 var events = require('events');
-var logger = require('mylogger');
 function ipcClient(sockPath) {
     this.sockPath = sockPath;
 }
@@ -49,19 +48,5 @@ ipcClient.prototype._write = function (data, cb) {
     cb = cb || function () {};
     var strData = (typeof data === 'string') ? data : JSON.stringify(data);
     this.socket.write(strData, cb);
-}
-
-
-var client = new ipcClient('/tmp/sham1.sock');
-client.connect(function () {
-    logger.info('client connected to /tmp/sham1.sock')
-//    setInterval(function () {
-//        client.send('hello ', function (st) {
-//            logger.log('data sent to server. got response from server:', st);
-//        });
-//    }, 1000)
-    client.on('data', function (data, cb) {
-        logger.log('sendig ack for received data:', data);
-        cb({s: "received by client"});
-    })
-}); 
+};
+module.exports = ipcClient;
